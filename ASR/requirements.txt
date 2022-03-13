@@ -1,0 +1,8 @@
+numpy==1.20
+torch
+transformers
+datasets
+librosa
+lang_trans
+jiwer
+wandb
