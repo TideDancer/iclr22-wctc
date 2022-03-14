@@ -1,5 +1,7 @@
 # W-CTC: a Connectionist Temporal Classification Loss with Wild Cards
 
+*X.Cai, J.Yuan, Y.Bian, G.Xun, J.Huang, K.Church*, "W-CTC: a Connectionist Temporal Classification Loss with Wild Cards", ICLR 2022
+
 This repository contains the PyTorch implementation of W-CTC and the essential codes to reproduce the paper's experiments.
 - [x] W-CTC PyTorch Implementation
 - [x] ASR Experiments
@@ -18,6 +20,7 @@ The code is based on following repositories:
 * wctc.py : The standalone implementation of W-CTC. Note that only forward algorithm is implemented, the backward is done via PyTorch's autograd mechanism. 
 * ASR/: The code to reproduce ASR experiments.
 * CSLR/: The code to reproduce CSLR expriments.
+* poster/: The paper's poster and slides.
 
 ## Minimum effort to run (the ASR experiments)
 ```bash
